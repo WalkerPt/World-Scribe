@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">World Scribe</string>
+
+    <string name="searchHint">Pesquisar esta categoria</string>
+
+    <string name="categoryText">Categoria</string>
+    <string name="personText">Pessoa</string>
+    <string name="groupText">Grupo</string>
+    <string name="placeText">Lugar</string>
+    <string name="itemText">Item</string>
+    <string name="conceptText">Conceito</string>
+
+    <string name="article">Artigo</string>
+    <string-array name="categories_array">
+        <item name="person">Person</item>
+        <item name="group">Group</item>
+        <item name="place">Place</item>
+        <item name="item">Item</item>
+        <item name="concept">Concept</item>
+    </string-array>
+
+    <string name="peopleText">Pessoas</string>
+    <string name="groupsText">Grupos</string>
+    <string name="placesText">Lugares</string>
+    <string name="itemsText">Itens</string>
+    <string name="conceptsText">Conceitos</string>
+
+    <string name="createArticleItemText">Novo Artigo</string>
+    <string name="renameWorldItemText">Renomear Mundo</string>
+    <string name="createWorldItemText">Criar Mundo</string>
+    <string name="loadWorldItemText">Abrir Mundo</string>
+    <string name="deleteWorldItem">Apagar Mundo</string>
+    <string name="settingsItemText">Definições</string>
+    <string name="renameArticleItemText">Renomear Artigo</string>
+    <string name="deleteArticleItemText">Apagar Artigo</string>
+    <string name="syncToDropboxItemText">Backup para Dropbox</string>
+    <string name="syncToNextcloudItemText">Backup para Nextcloud</string>
+    <string name="viewDeveloperWebsiteItemText">Desenvolvedor Website</string>
+    <string name="enableReaderModeItemText">Ativar Modo Leitura</string>
+    <string name="enableEditorModeItemText">Ativar Modo Edição</string>
+    <string name="viewAnúnciosItemText">Anúncios</string>
+    <string name="viewChangelogItemText">Ver Registo de Alterações</string>
+    <string name="feedbackItemText">Comentários</string>
+
+    <string name="imageFileName">Imagem</string>
+
+    <!-- Nextcloud -->
+    <string name="nextcloudServerTitle">Endereço do servidor Nextcloud\n(e.g. "https://us.hostiso.cloud")</string>
+    <string name="nextcloudUtilizador">Utilizador</string>
+    <string name="nextcloudPalavra Passe">Palavra Passe</string>
+    <string name="nextcloudEntrar">Entrar</string>
+    <string name="nextcloudTitle">Nextcloud</string>
+    <string name="emptyFields">Por favor preencha todos os campos.</string>
+
+    <!-- Text Field Names -->
+    <string name="aliasesField">Aliases</string>
+    <string name="ageField">Idade</string>
+    <string name="biographyField">Biografia</string>
+
+    <string name="connectionsText">Conexões</string>
+    <string name="snippetsText">Trechos</string>
+
+    <string name="ageHint">Idade</string>
+    <string name="maleText">Masculino</string>
+    <string name="femaleText">Feminino</string>
+    <string name="otherGenderText">Outro</string>
+    <string name="bioHint">Biografia / Descrição</string>
+    <string name="genderText">Género</string>
+    <string name="personImageDescription">Imagem do Perfil da Personagem</string>
+    <string name="addConnectionSnippetText">+</string>
+    <string name="mandateHint">Mandato / Descrição</string>
+    <string name="mandateText">Mandato</string>
+    <string name="membersText">Membros</string>
+    <string name="descriptionHint">Descrição</string>
+    <string name="residentsText">Residentes</string>
+    <string name="welcomeText">Bem vindo ao World Scribe!</string>
+
+    <string name="nameWorldHint">World Name</string>
+    <string name="createButtonText">Criar!</string>
+    <string name="relationHintTopText">Relação com o artigo abaixo</string>
+    <string name="relationHintBottomText">Relação com o artigo acima</string>
+    <string name="connectionArrowsDescription">Setas representam uma Ligação</string>
+    <string name="propertiesHint">Propriedades / Descrição</string>
+    <string name="propertiesField">Propriedades</string>
+    <string name="historyHint">História</string>
+    <string name="permissionExplanation">Os arquivos do WorldScribe estão no armazenamento externo do seu dispositivo.  Para usar este aplicativo, deve permitir acesso de gravação ao armazenamento externo.</string>
+    <string name="selectRootDirectoryTitle">IMPORTANTE: Localização dos dados</string>
+    <string name="selectRootDirectoryExplanation">Selecione o local para armazenar a pasta do aplicativo \"WorldScribe\".\n\nSe não é um novo utilizador, toque em \"Permitir Acesso\”, para a aplicação encontrar a sua pasta.</string>
+    <string name="permissionButtonText">Continuar</string>
+    <string name="emptyListText">Ainda nada!</string>
+    <string name="nothingToLinkText">Nada para ligar!</string>
+    <string name="loadWorldTitle">Entrar num Mundo...</string>
+    <string name="worldAlreadyExistsText">Já existe um Mundo com esse nome.\Escolha um nome diferente.</string>
+    <string name="worldCreationErrorText">Ocorreu um erro durante a criação do Mundo.</string>
+    <string name="loadWorldText">Carregando Mundo</string>
+    <string name="createWorldText">Criar Mundo</string>
+    <string name="articleNameHint">Nome do Artigo</string>
+    <string name="aliasesHint">Alcunha / Aliases </string>
+    <string name="snippetHint">Entre aqui o seu trecho.</string>
+    <string name="membershipsText">Associações </string>
+    <string name="residencesText">Residências</string>
+    <string name="memberRoleText">(%1$s)</string>
+    <string name="selectArticleTitle">Selecciona a %1$s para ligar</string>
+    <string name="saveEditText">GRAVE</string>
+    <string name="collapsedSectionHeader">▲ %1$s</string>
+    <string name="expandedSectionHeader">▼ %1$s</string>
+
+    <string name="createWorldTitle">Nasce um Mundo</string>
+    <string name="editConnectionTitle">Editar Ligação</string>
+    <string name="editMembershipTitle">Editar Associação</string>
+    <string name="createSnippetTitle">Um novo Trecho de Informação</string>
+    <string name="createArticleTitle">Um novo Artigo na História do Mundo</string>
+
+    <string name="confirmBackupToCloudTitle">Backup %1$s</string>
+    <string name="confirmBackupToCloud">Tens a certeza que pretendes carregar %1$s para         %2$s?\nO carregamento pode demorar vários minutos.</string>
+    <string name="confirmWorldDeletionTitle">Apagar %1$s</string>
+    <string name="confirmWorldDeletion">Tens a certeza que queres apagar %1$s?\nDepois de apagar não é possível recuperar.</string>
+    <string name="confirmSnippetDeletionTitle">Apagar %1$s</string>
+    <string name="confirmSnippetDeletion">Tens a certeza que queres apagar %1$s?\nDepois de apagar não é possível recuperar.</string>
+    <string name="confirmConnectionDeletionTitle">Apagar Ligação a %1$s</string>
+    <string name="confirmConnectionDeletion">Tens a certeza que queres apagar a ligação a %1$s?</string>
+    <string name="confirmMembershipDeletionTitle">Apagar Associação a %1$s</string>
+    <string name="confirmMembershipDeletion">Tens a certeza que queres apagar esta Associação a %1$s?</string>
+    <string name="confirmMemberRemovalTitle">Remover %1$s</string>
+    <string name="confirmMemberRemoval">Tens a certeza que queres remover %1$s como Membro?</string>
+    <string name="confirmResidenceRemovalTitle">Apagar Resideência em %1$s</string>
+    <string name="confirmResidenceRemoval">Tens a certeza que queres apagar esta Residência em %1$s?</string>
+    <string name="confirmResidentRemovalTitle">Remover %1$s de Residente</string>
+    <string name="confirmResidentRemoval">Tens a certeza que queres remover %1$s de Residente?</string>
+    <string name="confirmArticleDeletionTitle">Apagar %1$s</string>
+    <string name="confirmArticleDeletion">Tens a certeza que queres apagar %1$s?\nDepois de apagar não é possível recuperar.</string>
+
+    <string name="cropImageError">Ocorreu um erro ao recortar a imagem seleccionada.</string>
+    <string name="saveImageError">Ocorreu um erro ao gravar a imagem seleccionada.</string>
+    <string name="articleAlreadyExistsError">Já existe um artigo com este nome e categoria.</string>
+    <string name="articleCreationError">Ocorreu um erro ao criar o Artigo.</string>
+    <string name="deleteWorldError">Ocorreu um erro ao apagar este Mundo.</string>
+    <string name="saveConnectionError">Ocorreu um erro ao gravar a Ligação.</string>
+    <string name="emptyRelationError">Têm de ser preenchidas as ligações entre artigos.</string>
+    <string name="saveMembershipError">Ocorreu um erro ao gravar a Associação.</string>
+    <string name="snippetExistsError">Um trecho chamado %1$s já existe para %2$s.\Escolha um nome diferente.</string>
+    <string name="deleteSnippetError">Ocorreu um erro ao apagar %1$s.</string>
+    <string name="deleteConnectionError">Ocorreu um erro ao apagar a Conexão com %1$s.</string>
+    <string name="deleteMembershipError">Ocorreu um erro ao apagar a Associação a %1$s.</string>
+    <string name="deleteMemberError">Ocorreu um erro ao remover %1$s deste grupo.</string>
+    <string name="deleteResidenceError">Ocorreu um erro ao apagar a Residência em %1$s.</string>
+    <string name="deleteArticleError">Ocorreu um erro ao apagar este Artigo.</string>
+    <string name="emptySnippetNameError">O nome do excerto não pode estar vazio.</string>
+    <string name="renameSnippetError">Ocorreu um erro ao renomear %1$s.</string>
+    <string name="emptyArticleNameError">O nome do Artigo não pode estar em branco.</string>
+    <string name="renameArticleToExistingError">O %1$s designado %2$s já existe.\nEscolhe um nome diferente.</string>
+    <string name="renameArticleError">Ocorreu um erro ao renomear este Artigo.</string>
+    <string name="renameWithInvalidCharactersError">Não é permitido o uso desses caracteres nos nomes :%1$s</string>
+    <string name="emptyWorldNameError">O nome do Mundo não pode estar vazio.</string>
+    <string name="renameWorldToExistingError">Um Mundo chamado %1$s já existe. Escolhe um nome diferente.</string>
+    <string name="renameWorldError">Ocorreu um erro ao renomear este Mundo.</string>
+
+    <string name="memberRoleHint">Função do membro.</string>
+    <string name="nameSnippetHint">Função/Classificação no grupo (opcional)</string>
+    <string name="rename_snippet_title">Nome do Excerto</string>
+    <string name="renameArticleTitle">Renomear Excerto</string>
+    <string name="renameWorldTitle">Renomear Artigo</string>
+    <string name="selectThemeTitle">Renomear Mundo</string>
+    <string name="settingsTitle">Tema do Aplicativo</string>
+    <string name="restartNoticeText">Definições</string>
+    <string name="generalInfoHeader">Para aplicar as alterações, a aplicação reiniciará ao clicar em \"GRAVAR\"</string>
+    <string name="nightModeTitle">Informações Gerais</string>
+    <string name="nightModeSwitchText">Modo Noturno</string>
+
+    <string name="cloudUploadSuccess">Modo Noturno</string>
+    <string name="cloudUploadFailure">Ficheiros do Mundo enviados com sucesso</string>
+    <string name="cloudUploadProgressTitle">Ocorreu um erro ao enviar para %1$s</string>
+    <string name="cloudUploadProgressMessage">Enviando Mundo para %1$s</string>
+    <string name="dismissCloudUploadOutcome">Aguarda…</string>
+
+    <string name="readerModeEnabledMessage">OK</string>
+    <string name="editorModeEnabledMessage">Modo de Leitura (escrita desativada)</string>
+
+    <string name="changelogDialogTitle">Modo de Edição (escrita activada)</string>
+    <string name="announcementsDialogTitle">Alterações</string>
+    <string name="sendErrorLogByEmail">Anúncios</string>
+
+    <string name="privacyPolicyTitle">Enviar registo de erros por Mail</string>
+    <string name="privacyPolicyContent">Política de Privacidade</string>
+    <string name="privacyPolicyO World Scribe acessa o armazenamento externo  num dispositivo do utilizador durante as operações regulares do aplicativo.  No entanto, nenhum dado do utilizador é recolhido, transmitido por rede ou analisado.  Todos os dados que o utilizador insere no aplicativo permanecem inteiramente na pasta do \"WorldScribe\" no armazenamento externo do dispositivo.  A única vez em que esses dados são enviados pela rede é quando usa os recursos opcionais de backup Dropbox e NextCloud, caso em que os dados são transmitidos e armazenados exclusivamente por esses serviços e, como tal, a responsabilidade recai sobre a jurisdição desses mesmos serviços para manter a privacidade dos dados. A qualquer momento, o utilizador está livre para visualizar, editar, copiar, transferir ou remover seus dados da pasta \"WorldScribe\" conforme achar necessário.  Ao usar o World Scribe, você concorda que ele pode acessar o armazenamento externo apenas pelos motivos descritos acima e entende que os desenvolvedores do World Scribe não têm qualquer tipo de acesso aos seus dados.Button">O World Scribe acessa o armazenamento externo  num dispositivo do utilizador durante as operações regulares do aplicativo.  No entanto, nenhum dado do utilizador é recolhido, transmitido por rede ou analisado.  Todos os dados que o utilizador insere no aplicativo permanecem inteiramente na pasta do \"WorldScribe\" no armazenamento externo do dispositivo.  A única vez em que esses dados são enviados pela rede é quando usa os recursos opcionais de backup Dropbox e NextCloud, caso em que os dados são transmitidos e armazenados exclusivamente por esses serviços e, como tal, a responsabilidade recai sobre a jurisdição desses mesmos serviços para manter a privacidade dos dados. A qualquer momento, o utilizador está livre para visualizar, editar, copiar, transferir ou remover seus dados da pasta \"WorldScribe\" conforme achar necessário.  Ao usar o World Scribe, você concorda que ele pode acessar o armazenamento externo apenas pelos motivos descritos acima e entende que os desenvolvedores do World Scribe não têm qualquer tipo de acesso aos seus dados.</string>
+    <string name="privacyPolicyConcordoButton">Concordo</string>
+
+    <string name="deletingArticleDialogTitle">Discordo</string>
+    <string name="deletingWorldDialogTitle">Excluindo Artigo ...</string>
+
+    <string name="exceptionDialogTitle">Excluindo Mundo</string>
+    <string name="exceptionDialogUserInstructions">Solução de Problemas</string>
+
+    <string name="changelog_header_version">Um erro inesperado ocorreu.  Faça capturas de tela desta mensagem e envie-as para: support@averistudios.com</string>
+</resources>
